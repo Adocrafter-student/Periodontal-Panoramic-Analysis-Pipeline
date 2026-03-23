@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+
+dataset/
+dataset2/
+
+*.pt

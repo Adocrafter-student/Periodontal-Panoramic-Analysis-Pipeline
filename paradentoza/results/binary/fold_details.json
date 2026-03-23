@@ -1,0 +1,207 @@
+[
+  {
+    "accuracy": 0.8881118881118881,
+    "confusion_matrix": [
+      [
+        33,
+        5
+      ],
+      [
+        11,
+        94
+      ]
+    ],
+    "classification_report": {
+      "non_periodontal": {
+        "precision": 0.75,
+        "recall": 0.868421052631579,
+        "f1-score": 0.8048780487804879,
+        "support": 38.0
+      },
+      "periodontal": {
+        "precision": 0.9494949494949495,
+        "recall": 0.8952380952380953,
+        "f1-score": 0.9215686274509803,
+        "support": 105.0
+      },
+      "accuracy": 0.8881118881118881,
+      "macro avg": {
+        "precision": 0.8497474747474747,
+        "recall": 0.8818295739348372,
+        "f1-score": 0.8632233381157342,
+        "support": 143.0
+      },
+      "weighted avg": {
+        "precision": 0.8964823055732146,
+        "recall": 0.8881118881118881,
+        "f1-score": 0.8905599422098704,
+        "support": 143.0
+      }
+    },
+    "auc_roc": 0.9566416040100251
+  },
+  {
+    "accuracy": 0.9440559440559441,
+    "confusion_matrix": [
+      [
+        37,
+        1
+      ],
+      [
+        7,
+        98
+      ]
+    ],
+    "classification_report": {
+      "non_periodontal": {
+        "precision": 0.8409090909090909,
+        "recall": 0.9736842105263158,
+        "f1-score": 0.9024390243902439,
+        "support": 38.0
+      },
+      "periodontal": {
+        "precision": 0.98989898989899,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9607843137254902,
+        "support": 105.0
+      },
+      "accuracy": 0.9440559440559441,
+      "macro avg": {
+        "precision": 0.9154040404040404,
+        "recall": 0.9535087719298245,
+        "f1-score": 0.9316116690578671,
+        "support": 143.0
+      },
+      "weighted avg": {
+        "precision": 0.9503072684890868,
+        "recall": 0.9440559440559441,
+        "f1-score": 0.9452799711049353,
+        "support": 143.0
+      }
+    },
+    "auc_roc": 0.9716791979949875
+  },
+  {
+    "accuracy": 0.9366197183098591,
+    "confusion_matrix": [
+      [
+        34,
+        4
+      ],
+      [
+        5,
+        99
+      ]
+    ],
+    "classification_report": {
+      "non_periodontal": {
+        "precision": 0.8717948717948718,
+        "recall": 0.8947368421052632,
+        "f1-score": 0.8831168831168831,
+        "support": 38.0
+      },
+      "periodontal": {
+        "precision": 0.9611650485436893,
+        "recall": 0.9519230769230769,
+        "f1-score": 0.9565217391304348,
+        "support": 104.0
+      },
+      "accuracy": 0.9366197183098591,
+      "macro avg": {
+        "precision": 0.9164799601692806,
+        "recall": 0.92332995951417,
+        "f1-score": 0.919819311123659,
+        "support": 142.0
+      },
+      "weighted avg": {
+        "precision": 0.9372490857517523,
+        "recall": 0.9366197183098591,
+        "f1-score": 0.9368781861127238,
+        "support": 142.0
+      }
+    },
+    "auc_roc": 0.9759615384615384
+  },
+  {
+    "accuracy": 0.8951048951048951,
+    "confusion_matrix": [
+      [
+        36,
+        2
+      ],
+      [
+        13,
+        92
+      ]
+    ],
+    "classification_report": {
+      "non_periodontal": {
+        "precision": 0.7346938775510204,
+        "recall": 0.9473684210526315,
+        "f1-score": 0.8275862068965517,
+        "support": 38.0
+      },
+      "periodontal": {
+        "precision": 0.9787234042553191,
+        "recall": 0.8761904761904762,
+        "f1-score": 0.9246231155778895,
+        "support": 105.0
+      },
+      "accuracy": 0.8951048951048951,
+      "macro avg": {
+        "precision": 0.8567086409031698,
+        "recall": 0.9117794486215538,
+        "f1-score": 0.8761046612372205,
+        "support": 143.0
+      },
+      "weighted avg": {
+        "precision": 0.913876397159072,
+        "recall": 0.8951048951048951,
+        "f1-score": 0.8988370839003311,
+        "support": 143.0
+      }
+    },
+    "auc_roc": 0.9646616541353384
+  },
+  {
+    "accuracy": 0.9090909090909091,
+    "confusion_matrix": [
+      [
+        33,
+        5
+      ],
+      [
+        8,
+        97
+      ]
+    ],
+    "classification_report": {
+      "non_periodontal": {
+        "precision": 0.8048780487804879,
+        "recall": 0.868421052631579,
+        "f1-score": 0.8354430379746836,
+        "support": 38.0
+      },
+      "periodontal": {
+        "precision": 0.9509803921568627,
+        "recall": 0.9238095238095239,
+        "f1-score": 0.9371980676328503,
+        "support": 105.0
+      },
+      "accuracy": 0.9090909090909091,
+      "macro avg": {
+        "precision": 0.8779292204686753,
+        "recall": 0.8961152882205514,
+        "f1-score": 0.886320552803767,
+        "support": 143.0
+      },
+      "weighted avg": {
+        "precision": 0.9121559932176861,
+        "recall": 0.9090909090909091,
+        "f1-score": 0.910158269541869,
+        "support": 143.0
+      }
+    },
+    "auc_roc": 0.9739348370927317
+  }
+]
