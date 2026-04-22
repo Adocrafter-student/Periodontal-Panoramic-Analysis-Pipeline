@@ -1,9 +1,12 @@
 """
-Heuristic radiographic features for alveolar bone appearance on panoramic-style images.
+Legacy heuristic radiographic features for alveolar bone appearance.
 
-This does NOT measure clinical bone loss percentage (that needs CEJ–alveolar crest
-distances or expert segmentation). It produces a reproducible *proxy index* and
-raw cues you can correlate with stages as you collect more data and optional labels.
+DEPRECATED — retained for backward compatibility and as a supplementary signal.
+The primary staging pipeline now uses ``radiograph_analysis`` (CEJ-referenced,
+per-region bone-loss estimation) feeding into the rule-based ``staging`` module.
+
+This module's ``bone_loss_index`` is still reported alongside the new staging
+result so existing consumers are not broken.
 """
 
 from __future__ import annotations
